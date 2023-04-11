@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de actividades</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    html {
+      height: 100vh;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      height: 100vh;
+
+      background: rgb(2, 0, 36);
+      background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    }
+
+
+    header {
+      background-color: #000000;
+      color: #00ffc8;
+      text-align: center;
+      padding: 25px;
+
+    }
+
+    .center {
+      padding: 25px 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    h1,
+    h2 {
+      margin: 0
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      box-shadow: rgba(180, 221, 255, 0.5) 0 6px 24px 0, rgba(186, 240, 49, 0.08) 0 0 0 1px;
+
+    }
+
+    th,
+    td {
+      border: 1px solid #f91d00;
+      padding: 10px;
+      text-align: left;
+
+    }
+
+    th {
+      background-color: #64afef;
+      text-align: left;
+      color: #fff;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .container {
+        padding: 10px;
+      }
+
+      table {
+        font-size: 14px;
+      }
+
+      th,
+      td {
+        padding: 5px;
+      }
+    }
+
+
+    .pulse:hover {
+      -webkit-animation-name: pulse;
+      animation-name: pulse;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      cursor: pointer;
+    }
+
+    @-webkit-keyframes pulse {
+      0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+      }
+
+      50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+      }
+
+      100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+      }
+    }
+
+    @keyframes pulse {
+      0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+      }
+
+      50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+      }
+
+      100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+      }
+    }
+    .img-udc{
+      filter: drop-shadow(0 0 5px rgb(254, 255, 255));
+    }
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="pulse">𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙤 𝙙𝙚 𝙖𝙘𝙩𝙞𝙫𝙞𝙙𝙖𝙙𝙚𝙨 PWII</h1>
+    <h2 class="pulse">Desarrollado por: (𝘑𝘶𝘢𝘯 𝘋𝘢𝘷𝘪𝘥 𝘉𝘰𝘯𝘪𝘭𝘭𝘢 𝘑𝘪𝘮𝘦𝘯𝘦𝘻)</h2>
+  </header>
+  <div class="center">
+    <img class="pulse img-udc" src="./Images/iucd.png" alt="" />
+  </div>
+  <div class="container">
+    <table>
+
+      <head>
+        <tr>
+          <th>Nombre Actividad</th>
+          <th>Enlaces de la Actividad</th>
+          <th>Desarrollo de Actividades</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Primera Actividad</td>
+            <td><a href="Actividad_01.html" target="_blank">actividad_01</a></td>
+            <td><a href="Personalizada_01.html" target="_blank">Personalizada1</a></td>
+          </tr>
+          <tr>
+            <td>Segunda Actividad</td>
+            <td><a href="Actividad_02.html" target="_blank">Actividad_02</a></td>
+            <td><a href="Personalizada_02.html" target="_blank">Personalizada2</a></td>
+          </tr>
+          <tr>
+            <td>Tercera Actividad</td>
+            <td><a href="Actividad_03.html" target="_blank">Actividad_03</a></td>
+            <td><a href="Personalizada_03.html" target="_blank">Personalizada3</a></td>
+          </tr>
+          <tr>
+            <td>Cuarta Actividad</td>
+            <td><a href="Actividad_04.html" target="_blank">Actividad_04</a></td>
+            <td><a href="Personalizada_04.html" target="_blank">Personalizada4</a></td>
+          </tr>
+          <tr>
+            <td>Quinta Actividad</td>
+            <td><a href="https://juanbx1xb.github.io/revealjuanbonilla.github.io/" target="_blank">Actividad Reveal.js</a></td>
+            <td><a href="https://youtu.be/CfS2MMZh_ik" target="_blank">Video Chispum</a></td>
+          </tr>
+          
+        </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
