@@ -1,0 +1,25 @@
+header,
+footer,
+
+figcaption {
+    display: block;
+}
+
+header {
+    color:#000000;
+background-color: #f8a500;
+background-image: url(../images/dance.jpg);
+
+}
+
+main {
+    color:#000000;
+    background-color: #28b3cc;
+    background-image: url(../images/dance.jpg);
+}
+
+footer {
+    color:#000000;
+    background-color: #28b3cc;
+    background-image: url(../images/dance.jpg);
+}
